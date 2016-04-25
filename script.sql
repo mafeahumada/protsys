@@ -1,3 +1,5 @@
+create database pepito;
+
 create table cliente(
 nit varchar(20),
 razonsocial varchar(20),

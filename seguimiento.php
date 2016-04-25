@@ -7,46 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">INICIO</a>
-              </div>
-
-             <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="seguimiento.html">seguimiento<span class="sr-only">(current)</span></a></li>
-                  <li><a href="cancelado.html">Cancelado</a></li>
-                  <li><a href="entregado.html">Entregado</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="navbar-form navbar-left" role="Buscar">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default">buscar</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Atras</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdawn-toggle" data-toggle="dropdown" role="button" arias-haspopup="true"
-
-                    arias-expandad="false">Opciones <span class="caret"></span></a>
-                    
-                  </li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>          
+          <?php include 'menu.php' ?>
         </div>
         <div class="col-md-8">
         <h1 class="text-centro"> Formulario de Registros </h1>
