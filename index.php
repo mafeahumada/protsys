@@ -14,7 +14,7 @@
         </div>
         <div class="col-md-6">
           
-          <img src="logo.jpg" alt="img-responsive" class="img-responsive">
+          <img src="logotipo.jpg" alt="img-responsive" class="img-responsive">
                  
         </div>
         <div class="col-md-6">
