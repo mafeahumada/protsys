@@ -1,16 +1,15 @@
-create database protsys;
+CREATE DATABASE protsys;
+USE protsys;
+CREATE TABLE cliente(
+nit VARCHAR(20),
+razonsocial VARCHAR(20),
+direccion VARCHAR(50),
+telefono BIGINT,
+email VARCHAR(100),
+PRIMARY KEY(nit));
 
-create table cliente(
-nit varchar(20),
-razonsocial varchar(20),
-direccion varchar(50),
-telefono bigint,
-email varchar(100),
-primary key(nit));
+SHOW TABLES;
 
-CREATE DATABASE servicios;
-SHOW DATABASES;
-USE servicios;
 CREATE TABLE seguimiento(
 PT VARCHAR(2),
 PM VARCHAR(2),
@@ -32,15 +31,11 @@ Presupuesto VARCHAR(10),
 CotizacionAntesIVA VARCHAR(15),
 PRIMARY KEY(PT));
 
-SELECT * FROM seguimiento;
-
 CREATE TABLE entregado(
 PT VARCHAR(2),
 UltimaFecha VARCHAR(10),
 FechaIngreso VARCHAR(10),
 PRIMARY KEY(PT));
-
-SELECT * FROM entregado;
 
 CREATE TABLE cancelados(
 PT VARCHAR(2),
@@ -49,5 +44,8 @@ UltimaFecha VARCHAR(10),
 FechaIngreso VARCHAR(10),
 PRIMARY KEY(PT));
 
-SELECT * FROM cancelados;
+
+
+
+
 
