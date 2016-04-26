@@ -13,7 +13,7 @@
         <div class="col-md-6">
         <h1> Clientes</h1>
           <div class="well">
-                <form>
+                <form action="guardar.php">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nit</label>
                     <input type="text" name="nit" class="form-control" id="exampleInputEmail1" placeholder="nit">
@@ -44,7 +44,7 @@
                       <input type="checkbox"> Check me out
                     </label>
                   </div>
-                  <button type="submit" class="btn btn-default">Submit</button>
+                  <button type="submit" class="btn btn-default">GUARDAR</button>
                 </form>
           </div>
 
