@@ -13,7 +13,7 @@
         <div class="col-md-6">
         <h1> Clientes</h1>
           <div class="well">
-                <form action="guardar.php">
+                <form action="guardar.php" method="post">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Nit</label>
                     <input type="text" name="nit" class="form-control" id="exampleInputEmail1" placeholder="nit">
