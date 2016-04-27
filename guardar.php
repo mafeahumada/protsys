@@ -33,10 +33,10 @@ mysql_query($consulta);
         </div>
         <div class="col-md-6">
           <center > <h1> <strong> Registro Guardado </strong></h1> <center/>
-         <hr>
+         <hr/>
           <div class="well">
-          <p>Su registro a sido guardado correctamente.</p>
-          <p> <a href="index.php">Regresar</a> </p>
+          <p>Su registro a sido guardado exitosamente.</p>
+          <p> <a href="index.php"><strong>Regresar</strong></a> </p>
           </div>
           </div>
           
