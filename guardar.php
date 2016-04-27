@@ -35,6 +35,7 @@ mysql_query($consulta);
           <h1> Registro guardado </h1> 
           <div class="well">
           <p>Su registro a sido guardado correctamente.</p>
+          <p> <a href="index.php">Regresar</a> </p>
           </div>
           </div>
           
