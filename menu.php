@@ -24,8 +24,9 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="clientes.php">Registrar cliente</a></li>
-            <li><a href="#">Ver clientes</a></li>
-            <li><a href="#">Buscar clientes</a></li>
+            <li><a href="#">Seguimiento</a></li>
+            <li><a href="#">Cancelado</a></li>
+            <li><a href="#">Entregado</a></li>
 
 <!--             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>

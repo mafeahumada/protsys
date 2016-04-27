@@ -18,7 +18,7 @@
                  
         </div>
         <div class="col-md-6">
-          <center><h1> <strong>Bienvenidos a Protsys </strong> </h1></center>
+          <center><h1> <strong>Bienvenidos a Protsys </strong></h1></center>
           <hr>
           <div class="well">
 

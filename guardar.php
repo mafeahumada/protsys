@@ -36,7 +36,7 @@ mysql_query($consulta);
          <hr/>
           <div class="well">
           <p>Su registro a sido guardado exitosamente.</p>
-          <p> <a href="index.php"><strong>Regresar</strong></a> </p>
+          <p> <a class="btn btn-info" href="index.php" role="button"><strong> REGRESAR </strong></a> </p>
           </div>
           </div>
           
