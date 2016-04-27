@@ -18,8 +18,10 @@
                  
         </div>
         <div class="col-md-6">
-          <h1> Bienvenidos a Protsys </h1> 
+          <center><h1> <strong>Bienvenidos a Protsys </strong> </h1></center>
+          <hr>
           <div class="well">
+
           <p>Es un placer darles la bienvenida a protsys.</p>
           <p>Este sistema  fue establecido en la empresa construoficina en el 2016 y, desde entonces, busca profundizar y fortalecer el seguimiento del producto.</p>
           <p>En un mundo cada vez mas digitalizado, estamos convencidos de que, a traves de este sitio, puedan conocer las actividades que realizamos.</p>

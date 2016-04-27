@@ -4,7 +4,7 @@ $ras=$_POST["ras"];
 $dire=$_POST["dire"];
 $tel=$_POST["tel"];
 $email=$_POST["cor"];
-$db=mysql_connect("127.0.0.1","root","usrio01");
+$db=mysql_connect("localhost","root","");
 mysql_select_db("protsys",$db);
 $consulta="insert into cliente values('$nit','$ras','$dire',$tel,'$email')";
 
@@ -32,7 +32,8 @@ mysql_query($consulta);
                  
         </div>
         <div class="col-md-6">
-          <h1> Registro guardado </h1> 
+          <center > <h1> <strong> Registro Guardado </strong></h1> <center/>
+         <hr>
           <div class="well">
           <p>Su registro a sido guardado correctamente.</p>
           <p> <a href="index.php">Regresar</a> </p>

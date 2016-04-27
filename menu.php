@@ -22,10 +22,18 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Clientes <span class="caret"></span>
           </a>
+
+          
+
           <ul class="dropdown-menu">
             <li><a href="clientes.php">Registrar cliente</a></li>
             <li><a href="#">Ver clientes</a></li>
             <li><a href="#">Buscar clientes</a></li>
+
+
+
+            
+            
 
 <!--             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
