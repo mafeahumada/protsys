@@ -52,7 +52,7 @@
         <div class="col-md-6">
           <center><h1> <strong>Formulario de Personas </strong></h1></center>
           <hr>
-<!--           <p>
+      <!--     <p>
             aqui se guarda una person
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus, id temporibus vitae repudiandae. Numquam voluptatem nesciunt eligendi corrupti tempora natus illum, nihil ullam repudiandae fugit consequuntur, iure obcaecati ratione.
           </p>

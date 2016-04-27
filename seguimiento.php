@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>protsys</title>
+    <title>Protsys</title>
     <link rel="stylesheet" href="css/bootstrap.css">
   </head>
   <body>
@@ -9,11 +9,11 @@
         <div class="col-md-12">
           <?php include 'menu.php' ?>
         </div>
-        <div class="col-md-8">
-        <h1 class="text-centro"> Formulario de Registros </h1>
-        <div class="col-md-10">
-          <h1>Formulario seguimiento</h1>
-          <hr>
+
+        <div class="col-md-6">
+        <h1><strong> Seguimiento</strong> </h1>
+          <div class="well">
+                
           <div class="well">
               <form class="form-horizontal">
                 <div class="form-group">
@@ -25,7 +25,7 @@
                 <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label">PM</label>
                   <div class="col-sm-8">
-                    <input type="text" name="produc"class="form-control" id="inputEmail3" placeholder="Email">
+                    <input type="text" name="produc"class="form-control" id="inputEmail3" placeholder="P">
                   </div>
                 </div>
                 <div class="form-group">
@@ -94,37 +94,39 @@
                     <input type="text" name="pa" class="form-control" id="inputEmail3" placeholder="Personal de apoyo">
                   </div>
                 </div>
-                
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"> Remember me
-                      </label>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">Sign in</button>
-                  </div>
-                </div>
-              </form>   
+                  <!-- <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Example block-level help text here.</p>
+                  </div> -->
+                  <!-- <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Check me out
+                    </label>
+                  </div> -->
+                  <button type="submit" class="btn btn-info"><strong>GUARDAR</strong></button>
+                </form>
           </div>
 
         </div>
-        </div>
-        <div class="col-md-4">
-          <h1>Formulario de personas</h1>
-          <p>
+        <div class="col-md-6">
+          <center><h1> <strong>Formulario de Personas </strong></h1></center>
+          <hr>
+          <<!-- p>
             aqui se guarda una person
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus, id temporibus vitae repudiandae. Numquam voluptatem nesciunt eligendi corrupti tempora natus illum, nihil ullam repudiandae fugit consequuntur, iure obcaecati ratione.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magni iusto dolores recusandae a, tenetur, inventore? Repudiandae illo ut assumenda saepe incidunt nostrum sunt molestiae. Commodi quo provident vitae id?
-          </p>
+          </p> -->
+
+          <div>
+            <center><img src="logo1.jpg" alt="img-responsive" class="img-responsive" width="300"></center>
+          </div>
         </div>
+
+
+
       </div>
     </div>
   </body>
