@@ -14,7 +14,7 @@ mysql_query($consulta);
 
 <html>
   <head>
-    <title>titu</title>
+    <title>productos construoficina</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -26,14 +26,23 @@ mysql_query($consulta);
         <div class="col-md-12">
           <?php include 'menu.php' ?>
         </div>
-
         <div class="col-md-6">
+          
+          <img src="logotipo.jpg" alt="img-responsive" class="img-responsive">
+                 
+        </div>
+        <div class="col-md-6">
+          <h1> Registro guardado </h1> 
           <div class="well">
-            REGISTRO GUARDADO
-            <a href="index">Regresar</a>
+          <p>Su registro a sido guardado correctamente.</p>
           </div>
+          </div>
+          
         </div>
       </div>
     </div>
+    <script>
+      $('.dropdown-toggle').dropdown();
+    </script>
   </body>
 </html>
