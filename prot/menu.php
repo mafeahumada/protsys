@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.php">Protsys</a>
+      <a class="navbar-brand" href="index.php"><img src="logo2.jpg" id="escudo"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -36,11 +36,11 @@
         </li>
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Producto <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="producto.php">Nuevo producto</a></li>
+            <li><a href="productos.php">Nuevo producto</a></li>
             <li><a href="#">Todos los productos</a></li>
             <li><a href="#">Buscar productos</a></li>
 s
