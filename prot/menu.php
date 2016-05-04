@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,7 +44,7 @@
             <li><a href="productos.php">Nuevo producto</a></li>
             <li><a href="#">Todos los productos</a></li>
             <li><a href="#">Buscar productos</a></li>
-s
+
           </ul>
         </li>
 
