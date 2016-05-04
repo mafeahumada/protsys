@@ -40,16 +40,16 @@
             Producto <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="seguimiento.php">Nuevo producto</a></li>
+            <li><a href="producto.php">Nuevo producto</a></li>
             <li><a href="#">Todos los productos</a></li>
             <li><a href="#">Buscar productos</a></li>
-
+s
           </ul>
         </li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Segimiento <span class="caret"></span>
+            Seguimiento <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
             <li><a href="seguimiento.php">Seguimiento</a></li>

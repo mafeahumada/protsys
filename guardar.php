@@ -7,8 +7,6 @@ $email=$_POST["cor"];
 $db=mysql_connect("localhost","root","");
 mysql_select_db("protsys",$db);
 $consulta="insert into cliente values('$nit','$ras','$dire',$tel,'$email')";
-
-
 mysql_query($consulta);
 ?>
 

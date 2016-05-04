@@ -11,7 +11,7 @@
         </div>
 
         <div class="col-md-6">
-        <h1><strong> Seguimiento</strong> </h1>
+        <h1><strong> Producto</strong> </h1>
           <div class="well">
                 
           <div class="well">
@@ -70,30 +70,7 @@
                     <input type="text" name="fi" class="form-control" id="inputEmail3" placeholder="Fecha de ingreso">
                   </div>
                 </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Actualizacion de servivio </label>
-                  <div class="col-sm-8">
-                    <input type="text" name="as" class="form-control" id="inputEmail3" placeholder="Actualizacion de servivio">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Tarea asistencial</label>
-                  <div class="col-sm-8">
-                    <input type="text" name="ta" class="form-control" id="inputEmail3" placeholder="Tarea asistencial">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Fecha de cumplimiento </label>
-                  <div class="col-sm-8">
-                    <input type="text" name="fc" class="form-control" id="inputEmail3" placeholder="Fecha de cumplimiento">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Personal de apoyo </label>
-                  <div class="col-sm-8">
-                    <input type="text" name="pa" class="form-control" id="inputEmail3" placeholder="Personal de apoyo">
-                  </div>
-                </div>
+                
                   <!-- <div class="form-group">
                     <label for="exampleInputFile">File input</label>
                     <input type="file" id="exampleInputFile">
@@ -101,18 +78,16 @@
                   </div> -->
                   <!-- <div class="checkbox">
                     <label>
-                      <input type="checkbox"> Check me out
+                      <inpu type="checkbox"> Check me out
                     </label>
                   </div> -->
-                  <button type="submit" class="btn btn-info"><strong>GUARDAR</strong></button>
+              <button type="submit" class="btn btn-info"><strong>GUARDAR</strong></button>
                 </form>
           </div>
 
         </div>
         <div class="col-md-6">
-          <center><h1> <strong>Formulario de seguimiento
-
-           </strong></h1></center>
+          <center><h1> <strong>Formulario de Producto </strong></h1></center>
           <hr>
           <<!-- p>
             aqui se guarda una person

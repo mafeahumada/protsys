@@ -17,19 +17,19 @@
                 <form action="guardar.php" method="post">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Pt</label>
-                    <input type="text" name="nit" class="form-control" id="exampleInputEmail1" placeholder="nit">
+                    <input type="text" name="product" class="form-control" id="exampleInputEmail1" placeholder="nit">
                   </div>
                  <div class="form-group">
                     <label for="exampleInputEmail1">Razon de cancelacion </label>
-                    <input type="text" name="ras"class="form-control" id="exampleInputEmail1" placeholder="razon social">
+                    <input type="text" name="rc"class="form-control" id="exampleInputEmail1" placeholder="razon social">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Ultima fecha</label>
-                    <input type="text" name="dire" class="form-control" id="exampleInputEmail1" placeholder="direccion">
+                    <input type="text" name="uf" class="form-control" id="exampleInputEmail1" placeholder="direccion">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Fecha de ingreso</label>
-                    <input type="text" name="tel" class="form-control" id="exampleInputEmail1" placeholder="telefono">
+                    <input type="text" name="fi" class="form-control" id="exampleInputEmail1" placeholder="telefono">
                   </div>
                   
                   <!-- <div class="form-group">
@@ -78,26 +78,4 @@
 
 
 
-                  <!-- <label for="inputEmail3" class="col-sm-2 control-label">PT</label>
-                  <div class="col-sm-8">
-                    <input type="text" name ="product" class="form-control" id="inputEmail3" placeholder="Producto terminado">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Razon de cancelacion </label>
-                  <div class="col-sm-8">
-                    <input type="text" name="rc"class="form-control" id="inputEmail3" placeholder="razon de cancelacion">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Ultima fecha</label>
-                  <div class="col-sm-8">
-                    <input type="text" name="uf" class="form-control" id="inputEmail3" placeholder="ultima fecha">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Fecha de ingreso </label>
-                  <div class="col-sm-8">
-                    <input type="text" name="fi"class="form-control" id="inputEmail3" placeholder="fecha ingreso">
-                  </div>
-       
+                 
