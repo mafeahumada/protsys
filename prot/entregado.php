@@ -1,112 +1,81 @@
-<html>
+<<html>
   <head>
     <title>protsys</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+  <style type="text/css">
+    #escudo{
+    width: 40px;
+    }
+    </style>
+ 
+
 
   </head>
   <body>
     <div class="container">
-      <div class="row">
+      <div class="row">s
         <div class="col-md-12">
-          <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php">Inicio</a>
-              </div>
-
-             <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="seguimiento.php">Seguimiento<span class="sr-only">(current)</span></a></li>
-                  <li><a href="cancelado.php">Cancelado</a></li>
-                  <li><a href="entregado.php">Entregado</a></li>
-                </ul>
-                  </li>
-                </ul>
-                <form class="navbar-form navbar-left" role="Buscar">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default">buscar</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Atras</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdawn-toggle" data-toggle="dropdown" role="button" arias-haspopup="true"
-
-                    arias-expandad="false">Opciones <span class="caret"></span></a>
-                    
-                  </li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>   
+          <?php include 'menu.php' ?>
         </div>
-        <div class="col-md-12">
-       <!--  <h1 class="text-centro"> Formulario de Registros </h1> -->
+
         <div class="col-md-6">
-          <h1>Pedido entregado</h1>
-          <hr>
+        <h1><strong> Entregado</strong> </h1>
           <div class="well">
-              <form class="form-horizontal">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">PT</label>
-                  <div class="col-sm-8">
-                    <input type="text" name ="product" class="form-control" id="inputEmail3" placeholder="Producto terminado">
+                <form action="guardar4.php" method="post">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">PT</label>
+                    <input type="text" name="product" class="form-control" id="exampleInputEmail1" placeholder="">
                   </div>
-                </div>
-              
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Ultima fecha</label>
-                  <div class="col-sm-8">
-                    <input type="text" name="uf" class="form-control" id="inputEmail3" placeholder="ultima fecha">
+                 <div class="form-group">
+                    <label for="exampleInputEmail1">Ultima Fecha </label>
+                    <input type="text" name="uf"class="form-control" id="exampleInputEmail1" placeholder="">
                   </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Fecha de ingreso </label>
-                  <div class="col-sm-8">
-                    <input type="text" name="fi"class="form-control" id="inputEmail3" placeholder="fecha ingreso">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Fecha de Ingreso</label>
+                    <input type="text" name="fi" class="form-control" id="exampleInputEmail1" placeholder="">
                   </div>
-                </div>
-
-
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"><!--  Remember me -->
-                      </label>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">GUARDAR</button>
-                  </div>
-                </div>
-              </form>   
+                  
+                  <!-- <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Example block-level help text here.</p>
+                  </div> -->
+                  <!-- <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Check me out
+                    </label>
+                  </div> -->
+                  <button type="submit" class="btn btn-info"><strong>GUARDAR</strong></button>
+                </form>
           </div>
 
         </div>
         <div class="col-md-6">
-         <!--  <h1>Formulario de personas</h1>
-          <p>
+          <center><h1> <strong>Formulario de Personas </strong></h1></center>
+          <hr>
+      <!--     <p>
             aqui se guarda una person
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus, id temporibus vitae repudiandae. Numquam voluptatem nesciunt eligendi corrupti tempora natus illum, nihil ullam repudiandae fugit consequuntur, iure obcaecati ratione.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magni iusto dolores recusandae a, tenetur, inventore? Repudiandae illo ut assumenda saepe incidunt nostrum sunt molestiae. Commodi quo provident vitae id?
           </p> -->
+
+          <div>
+            <center><img src="logo1.jpg" alt="img-responsive" class="img-responsive" width="400"></center>
+          </div>
         </div>
+
+
+
       </div>
     </div>
+    
+    <script>
+      $('.dropdown-toggle').dropdown();
+    </script>
+
   </body>
 </html>

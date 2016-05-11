@@ -38,7 +38,7 @@
 
         <li class="dropdown">
           <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            Producto <span class="caret"></span>
+            Productos <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
             <li><a href="productos.php">Nuevo producto</a></li>

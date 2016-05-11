@@ -20,22 +20,22 @@
         <div class="col-md-6">
         <h1><strong> Cancelado</strong> </h1>
           <div class="well">
-                <form action="guardar.php" method="post">
+                <form action="guardar3.php" method="post">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Pt</label>
-                    <input type="text" name="nit" class="form-control" id="exampleInputEmail1" placeholder="nit">
+                    <input type="text" name="pt" class="form-control" id="exampleInputEmail1" placeholder=pt>
                   </div>
                  <div class="form-group">
                     <label for="exampleInputEmail1">Razon de cancelacion </label>
-                    <input type="text" name="ras"class="form-control" id="exampleInputEmail1" placeholder="razon social">
+                    <input type="text" name="rc"class="form-control" id="exampleInputEmail1" placeholder="rc">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Ultima fecha</label>
-                    <input type="text" name="dire" class="form-control" id="exampleInputEmail1" placeholder="direccion">
+                    <input type="text" name="uf" class="form-control" id="exampleInputEmail1" placeholder="uf">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1">Fecha de ingreso</label>
-                    <input type="text" name="tel" class="form-control" id="exampleInputEmail1" placeholder="telefono">
+                    <input type="text" name="fi" class="form-control" id="exampleInputEmail1" placeholder="telefono">
                   </div>
                   
                   <!-- <div class="form-group">

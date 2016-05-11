@@ -60,7 +60,7 @@
 
         </div>
         <div class="col-md-6">
-          <center><h1> <strong>Formulario de Personas </strong></h1></center>
+          <center><h1> <strong>Formulario de Clientes </strong></h1></center>
           <hr>
       <!--     <p>
             aqui se guarda una person

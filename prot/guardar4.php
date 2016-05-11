@@ -1,22 +1,12 @@
 <?php 
 $product=$_POST["product"];
-$produc=$_POST["produc"];
-$df=$_POST["df"];
-$nit=$_POST["nit"];
-$clien=$_POST["clien"];
-$descri=$_POST["descri"];
-$esta=$_POST["esta"];
-$fs=$_POST["fs"];
+$uf=$_POST["uf"];
 $fi=$_POST["fi"];
-$as=$_POST["as"];
-$ta=$_POST["ta"];
-$fc=$_POST["fc"];
-$pa=$_POST["pa"];
-
-include  'conexion.php';
 
 
-$consulta="insert into seguimiento values('$product','$produc','$df',$nit,'$clien', '$descri' , '$esta','$fs','$fi', '$as', '$ta', '$fc', '$pa')",
+include 'conexion.php';
+
+$consulta="insert into entregado values('$product','$uf','$fi',)";
 
 
 mysql_query($consulta);
@@ -28,6 +18,13 @@ mysql_query($consulta);
     <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
+
+<style type="text/css">
+    #escudo{
+    width: 40px;
+    }
+    </style>
+
 
   </head>
   <body>
