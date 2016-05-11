@@ -2,6 +2,7 @@
   <head>
     <title>protsys</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+
   </head>
   <body>
     <div class="container">
@@ -17,15 +18,15 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Inicio</a>
+                <a class="navbar-brand" href="index.php">Inicio</a>
               </div>
 
              <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="seguimiento.html">Seguimiento<span class="sr-only">(current)</span></a></li>
-                  <li><a href="cancelado.html">Cancelado</a></li>
-                  <li><a href="entregado.html">Entregado</a></li>
+                  <li class="active"><a href="seguimiento.php">Seguimiento<span class="sr-only">(current)</span></a></li>
+                  <li><a href="cancelado.php">Cancelado</a></li>
+                  <li><a href="entregado.php">Entregado</a></li>
                 </ul>
                   </li>
                 </ul>
@@ -49,7 +50,7 @@
           </nav>   
         </div>
         <div class="col-md-12">
-        <h1 class="text-centro"> Formulario de Registros </h1>
+       <!--  <h1 class="text-centro"> Formulario de Registros </h1> -->
         <div class="col-md-6">
           <h1>Pedido entregado</h1>
           <hr>
@@ -80,7 +81,7 @@
                   <div class="col-sm-offset-2 col-sm-10">
                     <div class="checkbox">
                       <label>
-                        <input type="checkbox"> Remember me
+                        <input type="checkbox"><!--  Remember me -->
                       </label>
                     </div>
                   </div>
@@ -88,7 +89,7 @@
 
                 <div class="form-group">
                   <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-default">Sign in</button>
+                    <button type="submit" class="btn btn-default">GUARDAR</button>
                   </div>
                 </div>
               </form>   
@@ -96,14 +97,14 @@
 
         </div>
         <div class="col-md-6">
-          <h1>Formulario de personas</h1>
+         <!--  <h1>Formulario de personas</h1>
           <p>
             aqui se guarda una person
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum delectus, id temporibus vitae repudiandae. Numquam voluptatem nesciunt eligendi corrupti tempora natus illum, nihil ullam repudiandae fugit consequuntur, iure obcaecati ratione.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde magni iusto dolores recusandae a, tenetur, inventore? Repudiandae illo ut assumenda saepe incidunt nostrum sunt molestiae. Commodi quo provident vitae id?
-          </p>
+          </p> -->
         </div>
       </div>
     </div>

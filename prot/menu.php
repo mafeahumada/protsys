@@ -54,8 +54,8 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="seguimiento.php">Seguimiento</a></li>
-            <li><a href="#">Cancelado</a></li>
-            <li><a href="#">Entregado</a></li>
+            <li><a href="cancelado.php">Cancelado</a></li>
+            <li><a href="entregado.php">Entregado</a></li>
 
           </ul>
         </li>

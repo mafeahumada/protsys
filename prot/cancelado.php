@@ -3,6 +3,12 @@
   <head>
     <title>protsys</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+
+    <style type="text/css">
+    #escudo{
+    width: 40px;
+    }
+    </style>
   </head>
   <body>
     <div class="container">
