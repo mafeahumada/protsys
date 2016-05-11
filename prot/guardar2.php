@@ -1,13 +1,11 @@
 <?php 
-$nit=$_POST["nit"];
-$ras=$_POST["ras"];
-$dire=$_POST["dire"];
-$tel=$_POST["tel"];
-$email=$_POST["cor"];
+$cp=$_POST["cp"];
+$nom=$_POST["nom"];
+
 
 include 'conexion.php';
 
-$consulta="insert into cliente values('$nit','$ras','$dire',$tel,'$email')";
+$consulta="insert into productos values('$cp,'$nom')";
 
 
 mysql_query($consulta);
