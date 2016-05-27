@@ -1,13 +1,11 @@
 <?php 
-$pt=$_POST["pt"];
-$rc=$_POST["rc"];
-$uf=$_POST["uf"];
-$fi=$_POST["fi"];
+$cp=$_POST["cp"];
+$nom=$_POST["nom"];
 
 
 include 'conexion.php';
 
-$consulta="insert into cancelado values('$pt','$rc','$uf',$fi,')";
+$consulta="insert into productos values('$cp','$nom')";
 
 
 mysql_query($consulta);
@@ -19,13 +17,11 @@ mysql_query($consulta);
     <link rel="stylesheet" href="css/bootstrap.css">
     <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-
-<style type="text/css">
+    <style type="text/css">
     #escudo{
     width: 40px;
     }
     </style>
-
 
   </head>
   <body>

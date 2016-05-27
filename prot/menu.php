@@ -25,8 +25,8 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="clientes.php">Registrar cliente</a></li>
-            <li><a href="#">Todos los clientes</a></li>
-            <li><a href="#">Buscar cliente</a></li>
+            <li><a href="todoslosclientes.php">Todos los clientes</a></li>
+            <li><a href="buscarcliente.php">Buscar cliente</a></li>
 
 <!--             <li role="separator" class="divider"></li>
             <li><a href="#">Separated link</a></li>
@@ -42,8 +42,8 @@
           </a>
           <ul class="dropdown-menu">
             <li><a href="productos.php">Nuevo producto</a></li>
-            <li><a href="#">Todos los productos</a></li>
-            <li><a href="#">Buscar productos</a></li>
+            <li><a href="todoslosproductos.php">Todos los productos</a></li>
+            <li><a href="buscarproductos.php">Buscar productos</a></li>
 
           </ul>
         </li>

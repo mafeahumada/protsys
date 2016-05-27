@@ -23,7 +23,7 @@
         <div class="col-md-6">
         <h1><strong> Entregado</strong> </h1>
           <div class="well">
-                <form action="guardar4.php" method="post">
+                <form action="guardarentregado.php" method="post">
                   <div class="form-group">
                     <label for="exampleInputEmail1">PT</label>
                     <input type="text" name="product" class="form-control" id="exampleInputEmail1" placeholder="">

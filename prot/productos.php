@@ -25,11 +25,11 @@
           <div class="well">
                 <form action="guardar2.php" method="post">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">codproducto</label>
+                    <label for="exampleInputEmail1">Codproducto</label>
                     <input type="text" name="cp" class="form-control" id="exampleInputEmail1" placeholder="codigo">
                   </div>
                  <div class="form-group">
-                    <label for="exampleInputEmail1">nombre</label>
+                    <label for="exampleInputEmail1">Nombre</label>
                     <input type="text" name="nom"class="form-control" id="exampleInputEmail1" placeholder="nombre">
                   </div>
                   

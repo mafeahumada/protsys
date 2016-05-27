@@ -18,9 +18,9 @@
         </div>
 
         <div class="col-md-6">
-        <h1><strong> Cancelado</strong> </h1>
+        <h1><strong> Cancelados</strong> </h1>
           <div class="well">
-                <form action="guardar3.php" method="post">
+                <form action="guardarcancelado.php" method="post">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Pt</label>
                     <input type="text" name="pt" class="form-control" id="exampleInputEmail1" placeholder=pt>
